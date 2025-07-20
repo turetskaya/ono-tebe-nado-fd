@@ -45,8 +45,7 @@
   max-width: 240px;
   line-height: 24.3px;
   width: 100%;
-  /* margin-right: 35px; */
-  /* margin-bottom: 5px; */
+
 }
 
 /* section */
@@ -80,6 +79,8 @@
   text-transform: uppercase;
   position: relative;
   z-index: 1;
+  letter-spacing: 30px;
+  margin-bottom: 106px;
 }
 
 .accent-span {
@@ -88,14 +89,48 @@
 
 .text-center {
   text-align: center;
+  margin-top: 19px;
+
 }
 
 .text-right {
   text-align: right;
+   margin-top: 17px;
+}
+
+.last-letter {
+letter-spacing: 0;
 }
 
 .description {
-  margin-top: 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: white;
+  text-transform: uppercase;
+font-size: 22px;
+line-height: 28px;
+
+position: relative;
+}
+
+.cover__description-text {
+
+word-spacing: 19px;
+
+}
+
+.bet-button {
+  
+  border: none;
+  padding: 12px 32px 11px 31px;
+  margin: 0;
+  background: transparent;
+  text-transform: uppercase;
+  color: white;
+  border-style: solid;
+    border-width: 1px;
+    
 }
 
 .lots {
